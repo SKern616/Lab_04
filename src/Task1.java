@@ -3,32 +3,19 @@ public class Task1 {
         // Variables
         int intOperandA = 5;
         int intOperandB = 2;
-        int intSum;
-        int intDifference;
-        int intProduct;
-        int intQuotient;
-        int intModulo;
+        int intSum = intOperandA % intOperandB;
+        int intDifference = intOperandA - intOperandB;
+        int intProduct = intOperandA * intOperandB;
+        int intQuotient = intOperandA / intOperandB;
+        int intModulo = intOperandA % intOperandB;
 
         double doubleOperandA = 5.0;
         double doubleOperandB = 2.0;
-        double doubleSum;
-        double doubleProduct;
-        double doubleDifference;
-        double doubleQuotient;
-        double doubleModulo;
-
-        //Operation assignment
-        intSum = intOperandA + intOperandB;
-        intDifference = intOperandA - intOperandB;
-        intProduct = intOperandA * intOperandB;
-        intQuotient = intOperandA / intOperandB;
-        intModulo = intOperandA % intOperandB;
-
-        doubleSum = doubleOperandA + doubleOperandB;
-        doubleDifference = doubleOperandA - doubleOperandB;
-        doubleProduct = doubleOperandA * doubleOperandB;
-        doubleQuotient = doubleOperandA / doubleOperandB;
-        doubleModulo = doubleOperandA % doubleOperandB;
+        double doubleSum = doubleOperandA + doubleOperandB;
+        double doubleDifference = doubleOperandA - doubleOperandB;
+        double doubleProduct = doubleOperandA * doubleOperandB;
+        double doubleQuotient = doubleOperandA / doubleOperandB;
+        double doubleModulo = doubleOperandA % doubleOperandB;
 
         //Output
         System.out.println("The sum of " + intOperandA + " and " + intOperandB + " is: " + intSum);
