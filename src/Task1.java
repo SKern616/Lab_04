@@ -29,6 +29,5 @@ public class Task1 {
         System.out.println("The product of " + doubleOperandA + " and " + doubleOperandB + " is: " + doubleProduct);
         System.out.println("The Quotient of " + doubleOperandA + " and " + doubleOperandB + " is: " + doubleQuotient);
         System.out.println("The mod of " + doubleOperandA + " and " + doubleOperandB + " is: " + doubleModulo);
-
     }
 }
