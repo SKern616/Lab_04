@@ -12,8 +12,8 @@ public class Task2 {
         //Outputs
         System.out.println("Please enter the price of your purchase: ");
         purchasePrice = scan.nextInt();
-        double totalPrice = purchasePrice + (purchasePrice * SALES_TAX_PERCENTAGE);
-        System.out.println();
+        totalPrice = purchasePrice + (purchasePrice * SALES_TAX_PERCENTAGE);
+        System.out.println("Your total price is: $" + totalPrice);
     }
 
 }
